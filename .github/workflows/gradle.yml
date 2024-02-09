@@ -12,7 +12,7 @@ on:
 jobs:
   build-java:
 
-    runs-on: ubuntu-latest
+    rruns-on: self-hosted
     
     steps:
     - uses: actions/checkout@v2
