@@ -30,7 +30,7 @@ jobs:
 
     - name: Build and Push Docker Image
       uses: mr-smithers-excellent/docker-build-push@v4
-      with:
+      with: 
         image: jayaramrcdac/github-actions-project
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
